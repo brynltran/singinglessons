@@ -31,3 +31,4 @@ with sd.InputStream(callback=audio_callback, channels=1, samplerate=SAMPLE_RATE,
     print("Speak into the microphone, press Ctrl+C to stop.")
     plt.show(block=True)  # Keep the plot window open
 
+# added a line
